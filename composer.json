@@ -1,5 +1,5 @@
 {
-    "name": "nerds-and-company/craft2-mail-retry",
+    "name": "nerds-and-company/craft-mailretry-plugin",
     "description": "Retry mails in background when they fail",
     "type": "craft-plugin",
     "keywords": [
