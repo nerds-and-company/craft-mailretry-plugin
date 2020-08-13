@@ -1,0 +1,36 @@
+{
+    "name": "nerds-and-company/craft2-mail-retry",
+    "description": "Retry mails in background when they fail",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "mail retry"
+    ],
+    "support": {
+        "docs": "https://github.com/nerds-and-company/craft2-mail-retry/blob/master/README.md",
+        "issues": "https://github.com/nerds-and-company/craft2-mail-retry/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nerds & Company",
+            "homepage": "https://nerds.company"
+        }
+    ],
+    "extra": {
+        "name": "Mail Retry",
+        "handle": "mail-retry",
+        "developer": "Nerds and Company",
+        "developerUrl": "https://github.com/nerds-and-company/craft2-mail-retry",
+        "documentationUrl": "https://github.com/nerds-and-company/craft2-mail-retry/blob/master/README.md",
+        "changelogUrl": "https://github.com/nerds-and-company/craft2-mail-retry/blob/master/CHANGELOG.md",
+        "class": "nerdsandcompany\\mailretry\\MailRetry"
+    },
+    "require-dev": {
+        "craftcms/cms": "^2.0.0",
+        "phpmd/phpmd": "^2.8"
+    }
+}
